@@ -1,0 +1,474 @@
+header {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  gap: 100px;
+  margin-right: 180px;
+}
+.header-item a {
+  color: #404040;
+  font-family: Titan One;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-social-list {
+  display: flex;
+  gap: 60px;
+}
+.img-logo-list {
+  margin-right: 150px;
+}
+.img-logo-list img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header-social-item a {
+  color: #404040;
+  font-family: Titan One;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-social-item {
+  padding: 5px 30px 10px 30px;
+  width: 190px;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: #000000;
+  box-shadow: 0px 4px #454545;
+}
+.item-telegram {
+  background-color: #ffd138;
+}
+.item-twitter {
+  background-color: #fff;
+}
+.welcome {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  position: relative;
+}
+.welcome::after {
+  position: absolute;
+  content: "";
+  width: 528px;
+  height: 528px;
+  border-radius: 528px;
+  background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ff29c3 100%);
+  filter: blur(100px);
+  top: 0;
+  right: 0;
+  transform: translate(20%, -50%);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.welcome-title {
+  color: #404040;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: linear-gradient(
+    200deg,
+    rgba(0, 255, 209.1, 0.8) 0%,
+    rgba(234.6, 0, 255, 0.8) 135%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+}
+.welcome-contract {
+  margin-bottom: 17px;
+  olor: #404040;
+
+  text-align: center;
+  font-family: Titillium Web;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.welcome-button-buy {
+  display: inline-block;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: #ffd138;
+  padding: 5px 67px;
+  box-shadow: 0px 4px #454545;
+}
+.welcome-button-buy a {
+  color: #404040;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.learn-more-title p {
+  color: #3c3c3c;
+  font-family: Titillium Web;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128.2%; /* 30.768px */
+}
+.learn-more {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.button-learn-more {
+  color: #fff;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid #000000;
+  background: linear-gradient(
+    200deg,
+    rgba(0, 255, 209.1, 0.8) 0%,
+    rgba(234.6, 0, 255, 0.8) 135%
+  );
+  padding: 8px 38px;
+  border-radius: 20px;
+  box-shadow: 0px 4px #454545;
+  margin-left: 25px;
+}
+.header-title {
+  display: flex;
+  margin-bottom: 17px;
+  align-items: center;
+}
+.header-title h2 {
+  color: #404040;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-title p {
+  color: #3c3c3c;
+  font-family: Titillium Web;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128.2%; /* 30.768px */
+}
+.learn-more-img {
+  margin-left: 93px;
+}
+.tokenomics {
+  position: relative;
+  background: url("./img/vector-2.svg"), url("./img/rectangle.png");
+  margin-top: 40px;
+  padding-bottom: 200px;
+}
+.tokenomics::after {
+  position: absolute;
+  content: "";
+  width: 471.648px;
+  height: 405.553px;
+  border-radius: 528px;
+  background: linear-gradient(
+    180deg,
+    rgba(24, 75, 255, 0.4) 0%,
+    rgba(24, 75, 255, 0.4) 100%
+  );
+  filter: blur(100px);
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+.tokenomics-title {
+  color: #fff;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  padding-top: 26px;
+}
+.tokenomics-content {
+  justify-content: center;
+  gap: 78px;
+  display: flex;
+  margin-top: 100px;
+}
+.content-title {
+  color: #fff;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content-box {
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 3px solid #000;
+  background: #fff;
+  padding: 50px 120px;
+}
+.tokenomics-img {
+  position: absolute;
+  left: 5%;
+}
+.howtobuy-title {
+  color: #ffd138;
+
+  text-align: center;
+  font-family: Titan One;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+.howtobuy-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.howtobuy-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+.follow-title {
+  color: #404040;
+  font-family: Titan One;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.follow {
+  max-width: 1478px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.follow-content {
+  position: relative;
+  margin-top: 34px;
+  background-image: url(./img/vector-1.svg), url("./img/at-bg2-1.png");
+  padding: 159px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.content-social {
+  background-color: #fff;
+  padding: 20px 80px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  box-shadow: 0px 4px #454545;
+}
+.content-social1 {
+  margin-left: 300px;
+}
+.follow-img {
+  position: absolute;
+  left: 0;
+}
+footer {
+  background-image: url(./img/vector.svg), url("./img/at-bg2-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-top: 144px;
+}
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-buy {
+  margin-top: 53px;
+}
+@media only screen and (max-width: 768px) {
+  .welcome-title {
+    font-size: 50px;
+  }
+  .welcome-contract {
+    font-size: 16px;
+  }
+  .welcome-button-buy a {
+    font-size: 16px;
+  }
+  .welcome-button-buy {
+    padding: 5px 20px;
+  }
+  .header-title {
+    justify-content: center;
+  }
+  .header-title h2 {
+    font-size: 40px;
+  }
+  .button-learn-more {
+    font-size: 16px;
+  }
+  .learn-more {
+    flex-direction: column-reverse;
+  }
+  .learn-more-img img {
+    width: 350px;
+    height: 350px;
+  }
+  .learn-more-img {
+    margin-left: 0;
+  }
+  .welcome::after {
+    display: none;
+  }
+  .tokenomics::after {
+    display: none;
+  }
+  .learn-more-title p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .tokenomics-content {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .tokenomics {
+    padding-bottom: 50px;
+  }
+  .content-title {
+    font-size: 16px;
+  }
+  .tokenomics-img {
+    display: none;
+  }
+  .tokenomics-title {
+    font-size: 40px;
+    color: #ffd138;
+    text-shadow: 0px 8px #051c2e;
+  }
+  .content-group {
+    padding: 0 100px;
+  }
+  .content-box {
+    padding: 50px 50px;
+    text-align: center;
+  }
+
+  .tokenomics {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .howtobuy-content {
+    flex-direction: column;
+  }
+  .howtobuy-right img {
+    width: 400px;
+  }
+  .howtobuy-title {
+    font-size: 40px;
+  }
+  .howtobuy-item img {
+    width: 40px;
+  }
+  .follow-img {
+    display: none;
+  }
+  .follow-content {
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 25px;
+    margin-top: 15px;
+    border-bottom: 2px solid #000000;
+    border-radius: 0px 0 10px 10px;
+  }
+  .content-social1 {
+    margin: 0;
+  }
+  .content-social {
+    padding: 10px 10px;
+  }
+  .follow-title {
+    font-size: 40px;
+    background: linear-gradient(
+      200deg,
+      rgba(0, 255, 209.1, 0.8) 0%,
+      rgba(234.6, 0, 255, 0.8) 135%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .content-social img {
+    width: 30px;
+  }
+  footer {
+    margin-top: 40px;
+  }
+  footer img {
+    width: 300px;
+  }
+  .footer-buy {
+    display: none;
+  }
+  header {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .header-list {
+    display: none;
+  }
+  .header-social-list {
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .img-logo-list {
+    margin: 0;
+  }
+  .img-logo-list img {
+    width: 330px;
+  }
+  .header-social-item a {
+    font-size: 16px;
+  }
+}
